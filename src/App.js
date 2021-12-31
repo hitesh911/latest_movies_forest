@@ -163,6 +163,12 @@ class App extends Component {
         }else{
             return (
                 <>
+                <div id = "search_bar" class = "border bg-light shadow rounded ">
+            <form class="d-flex justify-content-around">
+              <input id = "search_input"class=" mx-2 px-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-primary border-top border-bottom rounded-pill" type="submit">Search</button>
+            </form>
+          </div>
                 <div className="container row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-1">
                     {items.map((element) => {
                       return (
