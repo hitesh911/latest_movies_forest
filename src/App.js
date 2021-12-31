@@ -167,7 +167,7 @@ class App extends Component {
       
       <div class="container-fluid ">
         <a class="navbar-brand" href="#">
-          <img width = "30" height = "30" src={process.env.PUBLIC_URL + "/loading.webp"} className="card-img-top opacity-50" alt="..."/>
+          <img width = "5" height = "30" src={process.env.PUBLIC_URL + "/loading.webp"} className="card-img-top opacity-50" alt="..."/>
           Movies Forest</a>
         <div class=" navbar-collapse" id="navbarSupportedContent">
           <div id = "search_bar" class = "border bg-light shadow rounded ">
