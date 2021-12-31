@@ -172,7 +172,6 @@ class App extends Component {
           </svg>
           Shopcart</a>
         <div class=" navbar-collapse" id="navbarSupportedContent">
-          <!--search bar-->
           <div id = "search_bar" class = "border bg-light shadow rounded ">
             <form class="d-flex justify-content-around">
               <input id = "search_input"class=" mx-2 px-2" type="search" placeholder="Search" aria-label="Search"/>
