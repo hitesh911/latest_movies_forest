@@ -191,7 +191,7 @@ class App extends Component {
                               <img href="#" src={element.image} />
                               <iframe  id = "myiframe"src={element.trailer_url} frameBorder="0" ></iframe>
                                <div className = " text-center text-wrap mb-3">
-                                  <h2 >{element.name}</h2>
+                                  <h2 fs-6 >{element.name}</h2>
                                </div>
                             </div>
                             <div className="content">
