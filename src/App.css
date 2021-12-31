@@ -36,6 +36,9 @@
 
 }
 
+.card {
+    margin-bottom: 200px;
+}
 
 .container .card .image {
     position: relative;

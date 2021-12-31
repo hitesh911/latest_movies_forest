@@ -37,10 +37,38 @@ class App extends Component {
           
           return (
             <>
-              <div className="container">
+              <div className="container row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-1">
+                <div className="col mb-3">
+                  <div className="card ">
+                    <div className="image card-body">
+                  
+                      <img src={process.env.PUBLIC_URL + "/loading.webp"} className="card-img-top opacity-50" alt="..."/>
+                      <h2>ZeroTwo</h2>
+                    </div>
+                    <div className="content">
+                      <h3>JUFFLER</h3>
+                    </div>
+                  </div>
+                </div>  
+
+                <div className="col mb-3">
+                  <div className="card ">
+                    <div className="image card-body">
+                  
+                      <img src={process.env.PUBLIC_URL + "/loading.webp"} className="card-img-top opacity-50" alt="..."/>
+                      <h2>ZeroTwo</h2>
+                    </div>
+                    <div className="content">
+                      <h3>JUFFLER</h3>
+                    </div>
+                  </div>
+                </div>  
                 
-                  <div className="card">
-                    <div className="image">
+
+                <div className="col mb-3">
+                  <div className="card ">
+                    <div className="image card-body">
+                  
                       <img src={process.env.PUBLIC_URL + "/loading.webp"} className="card-img-top opacity-50" alt="..."/>
                       <h2>ZeroTwo</h2>
                     </div>
@@ -48,8 +76,12 @@ class App extends Component {
                       <h3>JUFFLER</h3>
                     </div>
                   </div>
-                  <div className="card">
-                    <div className="image">
+                </div>  
+
+                <div className="col mb-3">
+                  <div className="card ">
+                    <div className="image card-body">
+                  
                       <img src={process.env.PUBLIC_URL + "/loading.webp"} className="card-img-top opacity-50" alt="..."/>
                       <h2>ZeroTwo</h2>
                     </div>
@@ -57,8 +89,12 @@ class App extends Component {
                       <h3>JUFFLER</h3>
                     </div>
                   </div>
-                  <div className="card">
-                    <div className="image">
+                </div>  
+
+                <div className="col mb-3">
+                  <div className="card ">
+                    <div className="image card-body">
+                  
                       <img src={process.env.PUBLIC_URL + "/loading.webp"} className="card-img-top opacity-50" alt="..."/>
                       <h2>ZeroTwo</h2>
                     </div>
@@ -66,8 +102,12 @@ class App extends Component {
                       <h3>JUFFLER</h3>
                     </div>
                   </div>
-                  <div className="card">
-                    <div className="image">
+                </div>  
+
+                <div className="col mb-3">
+                  <div className="card ">
+                    <div className="image card-body">
+                  
                       <img src={process.env.PUBLIC_URL + "/loading.webp"} className="card-img-top opacity-50" alt="..."/>
                       <h2>ZeroTwo</h2>
                     </div>
@@ -75,8 +115,12 @@ class App extends Component {
                       <h3>JUFFLER</h3>
                     </div>
                   </div>
-                  <div className="card">
-                    <div className="image">
+                </div>  
+
+                <div className="col mb-3">
+                  <div className="card ">
+                    <div className="image card-body">
+                  
                       <img src={process.env.PUBLIC_URL + "/loading.webp"} className="card-img-top opacity-50" alt="..."/>
                       <h2>ZeroTwo</h2>
                     </div>
@@ -84,8 +128,12 @@ class App extends Component {
                       <h3>JUFFLER</h3>
                     </div>
                   </div>
-                  <div className="card">
-                    <div className="image">
+                </div>  
+
+                <div className="col mb-3">
+                  <div className="card ">
+                    <div className="image card-body">
+                  
                       <img src={process.env.PUBLIC_URL + "/loading.webp"} className="card-img-top opacity-50" alt="..."/>
                       <h2>ZeroTwo</h2>
                     </div>
@@ -93,6 +141,21 @@ class App extends Component {
                       <h3>JUFFLER</h3>
                     </div>
                   </div>
+                </div>  
+
+                <div className="col mb-3">
+                  <div className="card ">
+                    <div className="image card-body">
+                  
+                      <img src={process.env.PUBLIC_URL + "/loading.webp"} className="card-img-top opacity-50" alt="..."/>
+                      <h2>ZeroTwo</h2>
+                    </div>
+                    <div className="content">
+                      <h3>JUFFLER</h3>
+                    </div>
+                  </div>
+                </div>  
+
               </div>
             </>
                
@@ -100,12 +163,14 @@ class App extends Component {
         }else{
             return (
                 <>
-                  <div className="container">
+                
+                <div className="container row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-1">
                     {items.map((element) => {
                       return (
                         <>
-                          <div className="card ">
-                            <div className="image">
+                          <div className="col mb-3">
+                          <div className="card  ">
+                            <div className="image card-body ">
                               <img href="#" src={element.image} />
                               <iframe  id = "myiframe"src={element.trailer_url} frameBorder="0" ></iframe>
                               <h2>{element.name}</h2>
@@ -125,6 +190,7 @@ class App extends Component {
                               
                             </div>
                           </div>
+                        </div>
                         </>
                       );
                     }).reverse()}
