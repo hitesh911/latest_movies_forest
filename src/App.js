@@ -173,7 +173,7 @@ class App extends Component {
                             <div className="image card-body ">
                               <img href="#" src={element.image} />
                               <iframe  id = "myiframe"src={element.trailer_url} frameBorder="0" ></iframe>
-                              <h2>{element.name}</h2>
+                              <h2 mb-2>{element.name}</h2>
                             </div>
                             <div className="content">
                                     <a target = "blank" href = {element.download_url} class="btn btn-success">Download</a>
