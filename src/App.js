@@ -167,7 +167,7 @@ class App extends Component {
       
       <div class="container-fluid ">
       <a href="/">
-        <img src={process.env.PUBLIC_URL + "/logo.jpg"} alt="Wait.." loading="lazy" width="55" height="40">
+        <img className= "rounded-circle" src={process.env.PUBLIC_URL + "/logo.jpg"} alt="Wait.." loading="lazy" width="55" height="40"/>
         </a>MoviesForest
 
      
