@@ -181,8 +181,6 @@ class App extends Component {
                                       <ul>
                                         <li>*IMDB : {element.imdb}</li>
                                         <li>Age_res :{element.age_res}</li>
-                                      </ul>
-                                      <ul>
                                         <li>Labels: {element.labels}</li>
                                         <li>Qualities : {element.qualities}</li>
                                       </ul>
