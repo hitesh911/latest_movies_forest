@@ -163,7 +163,7 @@ class App extends Component {
         }else{
             return (
                 <>
-                <div className="containerhim row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-1">
+                <div className="container row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-1">
                     {items.map((element) => {
                       return (
                         <>
