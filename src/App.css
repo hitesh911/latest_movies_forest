@@ -9,6 +9,7 @@ body {
 }
 .content {
     background-image: linear-gradient(180deg, blue, rgb(0, 0, 94));
+}
 nav {
     background-image: linear-gradient(45deg, #78BFEB, #87CEFA);
 }
