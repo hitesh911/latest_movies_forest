@@ -166,9 +166,9 @@ class App extends Component {
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
       
       <div class="container-fluid ">
-        <a class="navbar-brand" href="#">
-          <img rounded-circle my-1 width="50" height="60" src={process.env.PUBLIC_URL + "/logo.jpg"}alt="..."/>
-          Movies Forest</a>
+        <a class="navbar-brand rounded-circle" href="#">
+          <img  width="50" height="60" src={process.env.PUBLIC_URL + "/logo.jpg"}alt="..."/>
+               Movies Forest</a>
         <div class=" navbar-collapse" id="navbarSupportedContent">
           <div id = "search_bar" class = "border bg-light shadow rounded ">
             <form class="d-flex justify-content-around">
