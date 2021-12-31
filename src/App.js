@@ -168,7 +168,7 @@ class App extends Component {
                     {items.map((element) => {
                       return (
                         <>
-                          <div className="container col mb-3">
+                          <div className="container-fluid col mb-3">
                           <div className="card  ">
                             <div className="image card-body ">
                               <img href="#" src={element.image} />
