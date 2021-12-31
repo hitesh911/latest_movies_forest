@@ -167,7 +167,7 @@ class App extends Component {
       
       <div class="container-fluid ">
         <a class="navbar-brand" href="#">
-          <img width="50" height="60" src={process.env.PUBLIC_URL + "/logo.jpg"}alt="..."/>
+          <img rounded-circle my-1 width="50" height="60" src={process.env.PUBLIC_URL + "/logo.jpg"}alt="..."/>
           Movies Forest</a>
         <div class=" navbar-collapse" id="navbarSupportedContent">
           <div id = "search_bar" class = "border bg-light shadow rounded ">
