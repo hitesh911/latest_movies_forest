@@ -173,7 +173,7 @@ class App extends Component {
                             <div className="image card-body ">
                               <img href="#" src={element.image} />
                               <iframe  id = "myiframe"src={element.trailer_url} frameBorder="0" ></iframe>
-                               <div className = "container mb-2">
+                               <div className = " badge bg-primary text-wrap mb-2">
                                   <h2 >{element.name}</h2>
                                </div>
                             </div>
