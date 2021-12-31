@@ -173,9 +173,9 @@ class App extends Component {
      
         <div class=" navbar-collapse" id="navbarSupportedContent">
           <div id = "search_bar" class = "border bg-light shadow rounded ">
-            <form class="d-flex justify-content-around">
+            <form class="d-flex justify-content-around p-2">
               <input id = "search_input"class=" mx-2 px-2" type="search" placeholder="Search" aria-label="Search"/>
-              <button class="btn btn-outline-primary border-top border-bottom rounded-pill" type="submit">Search</button>
+              <button class="btn btn-outline-success border-top border-bottom rounded-pill" type="submit">Search</button>
             </form>
           </div>
         </div>
@@ -191,7 +191,7 @@ class App extends Component {
                               <img href="#" src={element.image} />
                               <iframe  id = "myiframe"src={element.trailer_url} frameBorder="0" ></iframe>
                                <div className = " text-center text-wrap mb-3">
-                                  <h2 fs-6 >{element.name}</h2>
+                                  <h2 className = "fs-6" >{element.name}</h2>
                                </div>
                             </div>
                             <div className="content">
