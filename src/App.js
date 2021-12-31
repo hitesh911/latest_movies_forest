@@ -190,12 +190,13 @@ class App extends Component {
                               
                             </div>
                           </div>
-                        </div>
+                        
                       </div>
                         </>
                       );
                     }).reverse()}
                   </div>
+                 </div>
                 </>
               );
         }
