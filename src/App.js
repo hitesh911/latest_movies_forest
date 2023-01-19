@@ -13,7 +13,7 @@ class App extends Component {
     }
     componentDidMount(){
         Axios({
-            url: "https://juffler-database-api.herokuapp.com/read?key=JUFFLER_GEEKS",
+            url: "url_to_your_api",
             method: 'get',
         }).then(res => res.data)
         .then(movies_data => {
